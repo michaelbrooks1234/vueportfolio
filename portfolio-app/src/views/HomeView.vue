@@ -1,16 +1,15 @@
 <template>
+  <nav-bar></nav-bar>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { useAppStore } from '../stores/appStore';
+import NavBar from '../components/NavBar.vue';
 
 export default defineComponent({
   name: 'HomeView',
   beforeMount() {
-    console.log(this.store.isNavActive);
-    this.store.setNavState(false);
-    console.log(this.store.isNavActive);
   },
   data() {
     return {
@@ -18,7 +17,7 @@ export default defineComponent({
     }
   },
   components: {
-
+    NavBar,
   },
 });
 </script>

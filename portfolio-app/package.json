@@ -11,15 +11,15 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
-    "@mdi/font": "5.9.55",
     "pinia": "^2.1.7",
     "roboto-fontface": "*",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5",
-    "vuetify": "npm:@vuetify/nightly@next",
+    "vuetify": "npm:@vuetify/nightly@^3.3.0-next.2023-05-20",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
+    "@mdi/font": "^7.3.67",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^18.18.5",
     "@types/webfontloader": "^1.0.0",
