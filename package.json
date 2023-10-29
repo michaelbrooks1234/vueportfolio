@@ -2,26 +2,11 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "author": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "vite preview",
-    "build": "vite build",
-    "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "index.js",
-  "dependencies": {
-    "@mdi/font": "5.9.55",
-    "roboto-fontface": "*",
-    "vuetify": "^3.3.23",
-    "webfontloader": "^1.0.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.3",
-    "vite": "^3.0.8",
-    "vite-plugin-vuetify": "^1.0.0-alpha.12",
-    "vue-cli-plugin-vuetify": "~2.5.8"
-  },
   "keywords": [],
+  "author": "",
   "license": "ISC"
 }
